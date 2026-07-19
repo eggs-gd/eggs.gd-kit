@@ -1,0 +1,25 @@
+{
+	"name": "@eggs/kit",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"exports": {
+		"./native": {
+			"types": "./src/native/index.ts",
+			"default": "./src/native/index.ts"
+		}
+	},
+	"peerDependencies": {
+		"@capacitor/clipboard": "^8.0.1",
+		"@capacitor/core": "^8.3.4",
+		"@capacitor/haptics": "^8.0.2",
+		"@capacitor/share": "^8.0.1"
+	},
+	"devDependencies": {
+		"@capacitor/clipboard": "^8.0.1",
+		"@capacitor/core": "^8.3.4",
+		"@capacitor/haptics": "^8.0.2",
+		"@capacitor/share": "^8.0.1",
+		"typescript": "^6.0.2"
+	}
+}
